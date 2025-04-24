@@ -1,6 +1,5 @@
 <script setup>
-
-console.log("yeah");
+console.log("hello world");
 </script>
 
 <template>
