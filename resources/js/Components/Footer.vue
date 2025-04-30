@@ -141,9 +141,6 @@ console.log("footer")
     </footer>
     <!-- footer area end -->
 
-    <!-- scroll-top -->
-    <a href="#" id="scroll-top"><i class="far fa-arrow-up-from-arc"></i></a>
-    <!-- scroll-top end -->
 </template>
 
 <style scoped></style>
