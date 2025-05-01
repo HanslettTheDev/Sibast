@@ -1,4 +1,7 @@
 public
+bootstrap
 node_modules
 storage
 vendor
+.env
+
