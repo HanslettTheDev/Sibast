@@ -27,11 +27,14 @@ jobs:
           composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
           npm install
 
-      - name: Execute remote SSH commands using SSH key
+      - name: Test Remote Connection
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
-          script: whoami
+          script: |
+              whoami
+              ls -al 
+              echo "Hello world"
