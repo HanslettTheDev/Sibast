@@ -51,6 +51,7 @@ jobs:
             mv -f public/{.[!.]*,*} .
             rm -rf public/
             cp -f index.prod.php index.php
+            cp build/ ../../Sibast/public/
             ls -al
 
       - name: Pull Changes to Sibast
