@@ -63,5 +63,3 @@ jobs:
           script: |
             cd Sibast/
             git pull
-            npm install
-            composer install
