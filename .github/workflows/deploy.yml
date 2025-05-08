@@ -30,7 +30,17 @@ jobs:
       - name: Build Sibast Web Build Files
         run: |
           npm run build
-
+      
+      - name: Copy Build Files to Server
+        uses: appleboy/scp-action@v0.1.6
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: ${{ secrets.PORT }}
+          source: "public/*"
+          target: "public_html/Sibast/"
+          
       - name: Test Remote Connection
         uses: appleboy/ssh-action@v1
         with:
