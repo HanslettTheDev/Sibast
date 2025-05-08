@@ -20,7 +20,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.4'
+          php-version: "8.4"
 
       - name: Install Dependencies
         run: |
@@ -30,7 +30,7 @@ jobs:
       - name: Build Sibast Web Build Files
         run: |
           npm run build
-      
+
       - name: Copy Build Files to Server
         uses: appleboy/scp-action@v0.1.6
         with:
@@ -40,7 +40,7 @@ jobs:
           port: ${{ secrets.PORT }}
           source: "public/*"
           target: "public_html/Sibast/"
-          
+
       - name: Set Public_html Folder
         uses: appleboy/ssh-action@v1
         with:
@@ -49,11 +49,11 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-              cd public_html/Sibast/
-              rm -rf assets/ build/
-              mv -f public/{.[!.]*,*} .
-              rm public/
-              ls -al
+            cd public_html/Sibast/
+            rm -rf assets/ build/
+            mv -f public/{.[!.]*,*} .
+            rm public/
+            ls -al
 
       - name: Pull Changes to Sibast
         uses: appleboy/ssh-action@v1
@@ -63,5 +63,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-              cd Sibast/
-              git pull
+            cd Sibast/
+            git pull
+            npm install
+            composer install
