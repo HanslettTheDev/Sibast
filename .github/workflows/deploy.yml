@@ -27,6 +27,10 @@ jobs:
           composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
           npm install
 
+      - name: Build Sibast Web Build Files
+        run: |
+          npm run build
+
       - name: Test Remote Connection
         uses: appleboy/ssh-action@v1
         with:
