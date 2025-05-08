@@ -10,12 +10,12 @@
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
-        <link rel="stylesheet" href='/asset/css/bootstrap.min.css' />
-        <link rel="stylesheet" href='/asset/css/all-fontawesome.min.css' />
-        <link rel="stylesheet" href='/asset/css/animate.min.css' />
-        <link rel="stylesheet" href='/asset/css/magnific-popup.min.css' />
-        <link rel="stylesheet" href='/asset/css/owl.carousel.min.css' />
-        <link rel="stylesheet" href='/asset/css/style.css' />
+        <link rel="stylesheet" href='/assets/css/bootstrap.min.css' />
+        <link rel="stylesheet" href='/assets/css/all-fontawesome.min.css' />
+        <link rel="stylesheet" href='/assets/css/animate.min.css' />
+        <link rel="stylesheet" href='/assets/css/magnific-popup.min.css' />
+        <link rel="stylesheet" href='/assets/css/owl.carousel.min.css' />
+        <link rel="stylesheet" href='/assets/css/style.css' />
 
          @vite('resources/js/app.js')
         @inertiaHead
