@@ -37,4 +37,4 @@ jobs:
           script: |
               whoami
               ls -al 
-              echo "Hello world"
+              echo "Hello world" >> test.txt
