@@ -2476,7 +2476,7 @@ label {
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url(/public/assets/img/shape/01.png);
+    background-image: url(/assets/img/shape/01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2590,7 +2590,7 @@ label {
 }
 
 .ts-bg {
-    background-image: url(/public/assets/img/testimonial/bg.jpg);
+    background-image: url(/assets/img/testimonial/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2704,7 +2704,7 @@ label {
 
 .counter-area {
     position: relative;
-    background-image: url(/public/assets/img/counter/01.jpg);
+    background-image: url(/assets/img/counter/01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2799,7 +2799,7 @@ label {
 
 .cta-area {
     position: relative;
-    background-image: url(/public/assets/img/cta/01.jpg);
+    background-image: url(/assets/img/cta/01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3055,7 +3055,7 @@ label {
 
 .enroll-area {
     position: relative;
-    background-image: url(/public/assets//img/enroll/01.jpg);
+    background-image: url(/assets//img/enroll/01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -6209,7 +6209,7 @@ label {
 
 .home-3 .footer-area {
     position: relative;
-    background-image: url(/public/assets/img/footer/01.jpg);
+    background-image: url(/assets/img/footer/01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
