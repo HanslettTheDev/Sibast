@@ -19,8 +19,8 @@
                         <div class="header-top-contact">
                             <ul>
                                 <li>
-                                    <a href="#"><i class="far fa-location-dot"></i>Rail, Bonaberi, Second
-                                        Entrance</a>
+                                    <a href="#"><i class="far fa-location-dot"></i>Bonaberi, Abatoir, Adjacent Ancienne
+                                        Gendamarie</a>
                                 </li>
                                 <li>
                                     <a href="mailto:info@example.com"><i class="far fa-envelopes"></i>
