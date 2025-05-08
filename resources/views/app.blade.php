@@ -10,13 +10,14 @@
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
-        @vite('resources/css/bootstrap.min.css')
-        @vite('resources/css/all-fontawesome.min.css')
-        @vite('resources/css/animate.min.css')
-        @vite('resources/css/magnific-popup.min.css')
-        @vite('resources/css/owl.carousel.min.css')
-        @vite('resources/css/style.css')
-        @vite('resources/js/app.js')
+        <link rel="stylesheet" href='/assets/css/bootstrap.min.css' />
+        <link rel="stylesheet" href='/assets/css/all-fontawesome.min.css' />
+        <link rel="stylesheet" href='/assets/css/animate.min.css' />
+        <link rel="stylesheet" href='/assets/css/magnific-popup.min.css' />
+        <link rel="stylesheet" href='/assets/css/owl.carousel.min.css' />
+        <link rel="stylesheet" href='/assets/css/style.css' />
+
+         @vite('resources/js/app.js')
         @inertiaHead
     </head>
    <body>

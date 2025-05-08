@@ -1,5 +1,8 @@
 <script setup>
 console.log("footer")
+
+var year = new Date().getFullYear().toString();
+
 </script>
 
 <template>
@@ -18,9 +21,7 @@ console.log("footer")
                                 <img src="assets/img/logo/logo.png" alt="" />
                             </a>
                             <p class="mb-3">
-                                We are many variations of passages available but the majority
-                                have suffered alteration in some form by injected humour words
-                                believable.
+                                There are many variations of passages available for success. But we guide you to the best!
                             </p>
                             <ul class="footer-contact">
                                 <li>
@@ -32,7 +33,7 @@ console.log("footer")
                                 </li>
                                 <li>
                                     <a href="mailto:info@example.com"><i
-                                            class="far fa-envelope"></i>info@example.com</a>
+                                            class="far fa-envelope"></i>sibast@sibast.org</a>
                                 </li>
                             </ul>
                         </div>
@@ -93,15 +94,19 @@ console.log("footer")
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Newsletter</h4>
                             <div class="footer-newsletter">
-                                <p>Subscribe Our Newsletter To Get Latest Update And News</p>
-                                <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="email" class="form-control" placeholder="Your Email" />
-                                        <button class="theme-btn" type="submit">
-                                            Subscribe Now <i class="far fa-paper-plane"></i>
-                                        </button>
-                                    </form>
-                                </div>
+                                <p>Coming Soon</p>
+:q
+
+
+                                <!-- <p>Subscribe Our Newsletter To Get Latest Update And News</p> -->
+                                <!-- <div class="subscribe-form"> -->
+                                <!--     <form action="#"> -->
+                                <!--         <input type="email" class="form-control" placeholder="Your Email" /> -->
+                                <!--         <button class="theme-btn" type="submit"> -->
+                                <!--             Subscribe Now <i class="far fa-paper-plane"></i> -->
+                                <!--         </button> -->
+                                <!--     </form> -->
+                                <!-- </div> -->
                             </div>
                         </div>
                     </div>
@@ -114,8 +119,9 @@ console.log("footer")
                     <div class="row">
                         <div class="col-md-6 align-self-center">
                             <p class="copyright-text">
-                                &copy; Copyright <span id="date"></span>
-                                <a href="#"> SIBAST </a> All Rights Reserved.
+                                &copy; Copyright
+                                <span id="date"></span>{{ year + " " }}
+                                <a href="/">SIBAST</a> All Rights Reserved.
                             </p>
                         </div>
                         <div class="col-md-6 align-self-center">

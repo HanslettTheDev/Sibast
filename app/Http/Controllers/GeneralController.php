@@ -11,4 +11,19 @@ class GeneralController extends Controller
     {
         return Inertia::render('Home');
     }
+
+    public function aboutus()
+    {
+        return Inertia::render('AboutUs');
+    }
+
+    public function courses()
+    {
+        return Inertia::render('Courses');
+    }
+
+    public function contact()
+    {
+        return Inertia::render('Contact');
+    }
 }
