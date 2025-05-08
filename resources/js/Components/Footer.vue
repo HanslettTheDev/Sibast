@@ -21,15 +21,16 @@ var year = new Date().getFullYear().toString();
                                 <img src="assets/img/logo/logo.png" alt="" />
                             </a>
                             <p class="mb-3">
-                                There are many variations of passages available for success. But we guide you to the best!
+                                There are many variations of passages available for success. But we guide you to the
+                                best!
                             </p>
                             <ul class="footer-contact">
                                 <li>
                                     <a href="tel:+21236547898"><i class="far fa-phone"></i>+237 678 31 15 73</a>
                                 </li>
                                 <li>
-                                    <i class="far fa-map-marker-alt"></i>Rail, Bonaberi, Second
-                                    Entrance
+                                    <i class="far fa-map-marker-alt"></i> Bonaberi, Abatoir, Adjacent Ancienne
+                                    Gendamarie
                                 </li>
                                 <li>
                                     <a href="mailto:info@example.com"><i
@@ -95,7 +96,7 @@ var year = new Date().getFullYear().toString();
                             <h4 class="footer-widget-title">Newsletter</h4>
                             <div class="footer-newsletter">
                                 <p>Coming Soon</p>
-:q
+                                :q
 
 
                                 <!-- <p>Subscribe Our Newsletter To Get Latest Update And News</p> -->

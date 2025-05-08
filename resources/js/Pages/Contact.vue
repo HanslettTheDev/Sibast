@@ -28,7 +28,7 @@ import HomeLayout from "../Layouts/HomeLayout.vue";
                                 </div>
                                 <div class="contact-info-content">
                                     <h5>Office Address</h5>
-                                    <p>Rail Bonaberi, Second Entrance</p>
+                                    <p>Bonaberi, Abatoir, Adjacent Ancienne Gendamarie</p>
                                 </div>
                             </div>
                         </div>
