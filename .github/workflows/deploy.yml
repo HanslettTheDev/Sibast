@@ -14,29 +14,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: "8.4"
-
-      - name: Install Dependencies
-        run: |
-          composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
-          npm install
-
-      - name: Build Sibast Web Build Files
-        run: |
-          npm run build
-
-      - name: Copy Build Files to Server
-        uses: appleboy/scp-action@v0.1.6
+      - name: Pull Changes to Sibast on Server
+        uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
-          source: "public/*"
-          target: "public_html/Sibast/"
+          script: |
+            cd Sibast/
+            git pull origin main
+
+      - name: Build Sibast Web Build Files
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd Sibast/
+            npm run build
 
       - name: Set Public_html Folder
         uses: appleboy/ssh-action@v1
@@ -46,21 +44,10 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd public_html/Sibast/
+            cd Sibast/
+            cp -rf public/* ../../public_html/Sibast/
+            cd ../../public_html/Sibast/
             rm -rf assets/ build/
             mv -f public/{.[!.]*,*} .
             rm -rf public/
             cp -f index.prod.php index.php
-            cp -r build/ ../../Sibast/public/
-            ls -al
-
-      - name: Pull Changes to Sibast
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_KEY }}
-          port: ${{ secrets.PORT }}
-          script: |
-            cd Sibast/
-            git pull
