@@ -11,14 +11,12 @@
                                 <span class="site-title-tagline"><i class="far fa-book-open-reader"></i> Why
                                     Choose Us</span>
                                 <h2 class="site-title text-white mb-10">
-                                    We Are Expert & <span>Do Our Best</span> For
-                                    Your Goal
+                                    We Are Experts & <span>Do Our Best</span> For
+                                    Your Goals
                                 </h2>
                                 <p class="text-white">
-                                    It is a long established fact that a reader
-                                    will be distracted by the readable content
-                                    of a page when many desktop and web page
-                                    editors looking at its layout.
+                                    At SIBAST, our aim is to push your limits to new heights and give you a platform to
+                                    build your skills
                                 </p>
                             </div>
                             <div class="choose-content-wrap">
@@ -31,8 +29,7 @@
                                             <div class="choose-item-info">
                                                 <h4>Expert Teachers</h4>
                                                 <p>
-                                                    There are many variation of
-                                                    the suffered.
+                                                    Teachers with many years of experience
                                                 </p>
                                             </div>
                                         </div>
@@ -45,8 +42,7 @@
                                             <div class="choose-item-info">
                                                 <h4>Courses Material</h4>
                                                 <p>
-                                                    There are many variation of
-                                                    the suffered.
+                                                    Well curated courses to ease understanding
                                                 </p>
                                             </div>
                                         </div>
@@ -59,8 +55,7 @@
                                             <div class="choose-item-info">
                                                 <h4>Online Courses</h4>
                                                 <p>
-                                                    There are many variation of
-                                                    the suffered.
+                                                    Support for virtual classes
                                                 </p>
                                             </div>
                                         </div>
@@ -73,8 +68,7 @@
                                             <div class="choose-item-info">
                                                 <h4>Affordable Price</h4>
                                                 <p>
-                                                    There are many variation of
-                                                    the suffered.
+                                                    All of these at affordable rates
                                                 </p>
                                             </div>
                                         </div>
@@ -85,8 +79,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="choose-img wow fadeInRight" data-wow-delay=".25s">
-                        <img src="assets/img/choose/01.jpg" alt="" />
+                    <div class="choose-img wow fadeInRight rm-borderimg" data-wow-delay=".25s">
+                        <img src="assets/img/logo/logo-light.png" alt="" />
                     </div>
                 </div>
             </div>

@@ -11,8 +11,7 @@
                                 <div class="enroll-form-header">
                                     <h3>Start Your Enrollment</h3>
                                     <p>
-                                        We are variations of passages the have
-                                        suffered.
+                                        Get in touch with us to Enroll in SIBAST
                                     </p>
                                 </div>
                                 <form action="#">
@@ -72,14 +71,8 @@
                                     </h2>
                                 </div>
                                 <p class="text-white">
-                                    There are many variations of passages
-                                    available but the majority have suffered
-                                    alteration in some form by injected humour
-                                    randomised words which don't look even
-                                    slightly believable. If you are going to use
-                                    passage you need sure there anything
-                                    embarrassing first true generator on the
-                                    Internet.
+                                    A bried summary of how SIBAST thrives and where we plan to keep improving to give
+                                    you the best education possible
                                 </p>
                                 <div class="skills-section">
                                     <div class="progress-box">

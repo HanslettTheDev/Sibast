@@ -21,10 +21,7 @@
                                     <span>Bright</span> Future
                                 </h1>
                                 <p data-animation="fadeInLeft" data-delay=".75s">
-                                    There are many variations of passages orem
-                                    psum available but the majority have
-                                    suffered alteration in some repeat
-                                    predefined chunks form injected humour.
+                                    Get the chance to change the trajectory of your education with us!
                                 </p>
                                 <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
                                     <a href="about.html" class="theme-btn">About More<i

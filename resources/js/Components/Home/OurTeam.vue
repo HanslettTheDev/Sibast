@@ -10,8 +10,7 @@
                             Teachers</span>
                         <h2 class="site-title">Meet With Our <span>Teachers</span></h2>
                         <p>
-                            It is a long established fact that a reader will be distracted
-                            by the readable content of a page when looking at its layout.
+                            Let us introduce you to the core members of SIBAST
                         </p>
                     </div>
                 </div>

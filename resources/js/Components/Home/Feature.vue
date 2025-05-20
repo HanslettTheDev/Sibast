@@ -13,11 +13,10 @@
                             </div>
                             <div class="feature-content">
                                 <h4 class="feature-title">
-                                    Scholarship Facility
+                                    Scholarship Opportunities
                                 </h4>
                                 <p>
-                                    It is a long established fact that a reader
-                                    will be distracted.
+                                    Get schorlarship opportunities with us to aid in your studies
                                 </p>
                             </div>
                         </div>
@@ -31,8 +30,8 @@
                             <div class="feature-content">
                                 <h4 class="feature-title">Skilled Lecturers</h4>
                                 <p>
-                                    It is a long established fact that a reader
-                                    will be distracted.
+                                    We have skilled lecturers who have many years of experience in their respective
+                                    professional fields
                                 </p>
                             </div>
                         </div>
@@ -48,8 +47,7 @@
                                     Book Library Facility
                                 </h4>
                                 <p>
-                                    It is a long established fact that a reader
-                                    will be distracted.
+                                    A school library to aid with Research
                                 </p>
                             </div>
                         </div>
@@ -63,8 +61,7 @@
                             <div class="feature-content">
                                 <h4 class="feature-title">Affordable Price</h4>
                                 <p>
-                                    It is a long established fact that a reader
-                                    will be distracted.
+                                    Tuition fees are Affordable
                                 </p>
                             </div>
                         </div>
