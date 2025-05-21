@@ -19,6 +19,7 @@ import Partners from "../Components/Home/Partners.vue";
 
 <template>
     <HomeLayout>
+        <h1>Test tag</h1>
         <!-- hero slider section -->
         <HeroSlider></HeroSlider>
         <!-- feature area -->
