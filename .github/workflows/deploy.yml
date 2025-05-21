@@ -55,10 +55,10 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd Sibast/
-            cp -rf public ../public_html/Sibast/public/
-            cd ../public_html/Sibast/public
-            rm -rf assets/ build/
-            mv -f public/* . && mv -f public/.htaccess .
-            rm -rf public/
-            cp -f index.prod.php index.php
-            ls -al
+            cp -rf public/build ../public_html/Sibast/
+            cp -rf public/assets ../public_html/Sibast/
+            cp -f favicon.ico ../public_html/Sibast/favicon.ico
+            cp -f public/index.prod.php ../public_html/Sibast/index.php
+            cp -f public/.htaccess ./public_html/Sibast/.htaccess
+            cp -f public/robot.txt ./public_html/Sibast/robot.txt
+            ls -al ../public_html/Sibast/
