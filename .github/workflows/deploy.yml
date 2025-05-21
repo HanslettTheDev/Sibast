@@ -13,6 +13,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # - name: Clone the repository
+      #   uses: appleboy/ssh-action@v1
+      #   with:
+      #     host: ${{ secrets.HOST }}
+      #     username: ${{ secrets.USERNAME }}
+      #     key: ${{ secrets.PRIVATE_KEY }}
+      #     port: ${{ secrets.PORT }}
+      #     script: |
+      #       rm -rf Sibast
+      #       git clone https://github.com/HanslettTheDev/Sibast.git -b main
       
       - name: Pull Changes to Sibast on Server
         uses: appleboy/ssh-action@v1
@@ -44,8 +55,8 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd Sibast/
-            cp -rf public/* ../../public_html/Sibast/
-            cd ../../public_html/Sibast/
+            cp -rf public ../public_html/Sibast/public/
+            cd ../public_html/Sibast/public
             rm -rf assets/ build/
             mv -f public/{.[!.]*,*} .
             rm -rf public/
