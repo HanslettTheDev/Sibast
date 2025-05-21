@@ -34,7 +34,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd Sibast/
-            ~./bin/npm run build
+            ~/bin/npm run build
 
       - name: Moves web files to web directory
         uses: appleboy/ssh-action@v1
