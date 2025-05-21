@@ -61,3 +61,4 @@ jobs:
             mv -f public/* . && mv -f public/.htaccess .
             rm -rf public/
             cp -f index.prod.php index.php
+            ls -al
