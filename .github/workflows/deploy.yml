@@ -33,8 +33,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            which node
-            which npm
+            source ~/.bashrc
             cd Sibast/
             npm run build
 
