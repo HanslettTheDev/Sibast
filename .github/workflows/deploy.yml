@@ -34,27 +34,7 @@ jobs:
           script: |
             cd Sibast/
             git pull origin main
-
-      - name: Build Sibast Web Build Files
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_KEY }}
-          port: ${{ secrets.PORT }}
-          script: |
-            cd Sibast/
             npm run build
-
-      - name: Set Public_html Folder
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_KEY }}
-          port: ${{ secrets.PORT }}
-          script: |
-            cd Sibast/
             cp -rf public/* ../../public_html/Sibast/
             cd ../../public_html/Sibast/
             rm -rf assets/ build/
