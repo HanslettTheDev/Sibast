@@ -24,6 +24,7 @@ import Partners from "../Components/Home/Partners.vue";
         <!-- feature area -->
         <Feature></Feature>
 
+        Hello this is a test tag
         <!-- about area -->
         <About></About>
         <!-- about area end -->
